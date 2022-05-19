@@ -1,1 +1,1 @@
-# GUI-javafx
+Este código trata-se de minha primeira interface gráfica utilizando o JavaFX, Visual Studio Code e o SceneBuilder. Com a ajuda do SceneBuilder, é possível uma melhor organização e desenvolvimento mais rápido do que fazer cada elemento da GUI manualmente. 
