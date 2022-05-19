@@ -8,17 +8,18 @@ public class App extends Application {
   
     public static void main(String args[]) throws Exception
     {
-        // launch the application
+        // Executa a aplicação.
         launch(args);
     }
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-
+//Carrega o arquivo FXML do SceneBuilder
 FXMLLoader fxmlloader = new FXMLLoader(getClass().getResource("layout.fxml"));
 Parent root = fxmlloader.load();
 Scene tela = new Scene(root);
 
+      //Nomeia o titulo da janela
 primaryStage.setTitle("Formulário de inscrição CSI");
 primaryStage.setScene(tela);
 primaryStage.show();
